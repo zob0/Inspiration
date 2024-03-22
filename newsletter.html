@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inspiracija</title>
+    <link rel="stylesheet" href="css/general.css" type="text/css" />
+    <link rel="stylesheet" href="css/newsletter.css" type="text/css" />
+  </head>
+  <body>
+    <div id="nav">
+      <a href="index.html" class="oniDrugi">HOME</a>
+      <a href="inspiracija.html" class="oniDrugi">INSPIRACIJA</a>
+      <a href="newsletter.html">NEWSLETTER</a>
+      <a href="oAutorima.html" class="oniDrugi">POZNATI AUTORI</a>
+    </div>
+    <br />
+    <p>Prijavite se za naš newsletter i redovno dobijajte inspiracioni mail!</p>
+    <br />
+    <form>
+      <div id="zaGrid">
+        <label for="ime">Ime: </label>
+        <div>
+          <input type="text" name="ime" id="ime" />
+          <br />
+          <br />
+        </div>
+        <label for="mail">Email adresa: </label>
+        <div>
+          <input type="text" name="mail" id="mail" />
+          <br />
+          <br />
+        </div>
+        <label for="user">Korisničko ime: </label>
+        <div>
+          <input type="text" name="user" id="user" />
+          <br />
+          <br />
+        </div>
+        <label for="pass">Šifra: </label>
+        <div>
+          <input type="password" name="pass" id="pass" />
+        </div>
+      </div>
+      <br />
+      Koje vrste citata želite da dobijate?
+      <br />
+      <input type="checkbox" name="vrstaCitata" class="cb" /> Inspirativni
+      <br />
+      <input type="checkbox" name="vrstaCitata" class="cb" /> Motivacioni
+      <br />
+      <input type="checkbox" name="vrstaCitata" class="cb" /> Ljubavni
+      <br />
+      <br />
+      Da li prihvatate naše uslove korišćenja?
+      <br />
+      <input type="radio" name="uslovi" class="radio" checked /> Da
+      <br />
+      <input type="radio" name="uslovi" class="radio" /> Ne
+      <br />
+      <br />
+      <button type="submit" id="subBut">SUBMIT</button>
+    </form>
+    <br />
+    <div class="radio-btn">
+      <div class="radio-inner"></div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="js/dlmode.js"></script>
+    <script src="js/newsletter.js"></script>
+  </body>
+</html>

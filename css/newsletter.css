@@ -1,0 +1,25 @@
+#zaGrid {
+  width: 50%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+input {
+  background-color: #ffc207;
+  color: black;
+}
+
+#subBut {
+  padding: 5px;
+}
+
+#subBut:hover {
+  background-color: #27173a;
+  color: white;
+}
+
+@media all and (max-width: 720px) {
+  #zaGrid {
+    width: 100%;
+  }
+}

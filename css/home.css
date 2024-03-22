@@ -1,0 +1,38 @@
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+select {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#mehanizam {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: column wrap;
+}
+
+button {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+select {
+  padding: 5px;
+}
+
+button:hover {
+  background-color: #27173a;
+  color: white;
+}
+
+select:hover {
+  background-color: #27173a;
+  color: white;
+}
